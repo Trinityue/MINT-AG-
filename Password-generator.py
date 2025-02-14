@@ -8,8 +8,18 @@ try:
         Zahl = input("Do you want to include numbers in your password? (y/n) ").lower()
         if Zahl == "y":
             choices = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+            Sonderzeichen = input("Do you want to include special characters in your password? (y/n) ")
+            if Sonderzeichen == "y":
+                choices += "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
+            elif Sonderzeichen == "n":
+                pass 
         elif Zahl == "n":
             choices = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            Sonderzeichen = input("Do you want to include special characters in your password? (y/n) ")
+            if Sonderzeichen == "y":
+                choices += "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
+            elif Sonderzeichen == "n":
+                pass 
         else:
             print("Invalid choice. Please choose y or n.")
             exit()
