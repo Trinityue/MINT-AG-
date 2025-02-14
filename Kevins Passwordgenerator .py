@@ -1,7 +1,7 @@
 import random
 
 while True:
-    x = input("Please type password: ")
+    x = input("Please type password to generate your new password: ")
 
     if x == 'password':
         random_number = random.randint(1000000, 9999999)
