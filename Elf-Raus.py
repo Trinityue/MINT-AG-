@@ -16,7 +16,6 @@ while True:
     if x not in ["1", "2", "3", "4"]:
         print ("Invalid choice. Please choose between 1, 2, 3, or 4.")
         continue
-<<<<<<< HEAD:Game-Test.py
     elif x == "1":
         while True:
             player_choice = input(f"Current number {counter}. Choose between 1, 2, or 3: (Type q to quit ; Type r or rules to read the rules)")
@@ -181,7 +180,7 @@ while True:
             else:
                 print("Invalid choice. Please choose between 1, 2, or 3.") 
                 continue
-=======
+
 
     #print(f"Score: You {player_point} - Com1 {com1_point} Com2 - {com2_point} Com3 - {com3_point}") 
->>>>>>> 33febf90060b369e67ac59971b745fb38da05164:Elf-Raus.py
+
