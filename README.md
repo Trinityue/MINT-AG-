@@ -1,2 +1,1 @@
-# MINT-AG
-# 
+# MINT-AG 
