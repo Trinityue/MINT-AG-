@@ -4,7 +4,6 @@ com1_point = 0
 com2_point = 0 
 com3_point = 0
 com4_point = 0
-com1_point = 0
 
 choices = ["1", "2", "3"]
 computer_choice = random.choice(choices)
