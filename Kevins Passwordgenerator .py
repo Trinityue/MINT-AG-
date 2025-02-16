@@ -6,6 +6,6 @@ while True:
     if x == 'password':
         random_number = random.randint(1000000, 9999999)
         print(f"Your new password is: {random_number}")
-        break
+        exit()
     else:
         print("Please type password, and not something else!")
